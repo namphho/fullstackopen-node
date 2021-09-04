@@ -1,0 +1,5 @@
+::1 - - [04/Sep/2021:12:08:35 +0000] "GET /api/persons1234134 HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [04/Sep/2021:12:08:37 +0000] "GET /api/persons1234134 HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::ffff:127.0.0.1 - - [04/Sep/2021:12:08:45 +0000] "POST /api/persons HTTP/1.1" 200 48 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [04/Sep/2021:12:08:48 +0000] "GET /api/persons HTTP/1.1" 200 272 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [04/Sep/2021:12:11:16 +0000] "POST /api/persons HTTP/1.1" 200 48 "-" "vscode-restclient"
