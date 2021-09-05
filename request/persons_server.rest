@@ -1,0 +1,18 @@
+GET https://rocky-dawn-88002.herokuapp.com/api/persons
+
+
+### get person by api
+GET https://rocky-dawn-88002.herokuapp.com/api/persons/1
+
+
+### DELETE person
+DELETE  https://rocky-dawn-88002.herokuapp.com/api/persons/4
+
+### POST person
+POST  https://rocky-dawn-88002.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "hoangnam123123",
+    "number": "0938933822"
+}
