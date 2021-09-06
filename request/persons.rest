@@ -2,17 +2,26 @@ GET http://localhost:3001/api/persons
 
 
 ### get person by api
-GET http://localhost:3001/api/persons/100
+GET http://localhost:3001/api/persons/6135f6f172f5eba8e4a0b84a
 
 
 ### DELETE person
-DELETE  http://localhost:3001/api/persons/4
+DELETE  http://localhost:3001/api/persons/6135ecad70729d714324937d
 
 ### POST person
 POST  http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "hoangnam123123",
+    "name": "hnam12341234",
     "number": "0938933822"
+}
+
+### UPDATE person
+PUT  http://localhost:3001/api/persons/6135f595e3e2fc915f48c830
+Content-Type: application/json
+
+{
+    "name": "hnam12341234",
+    "number": "0938922222"
 }
