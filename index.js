@@ -18,11 +18,10 @@ const logger = morgan(function (tokens, req, res) {
   ].join(" ");
 });
 
+app.use(express.static("build"));
 app.use(cors());
 app.use(logger);
 app.use(express.json());
-
-app.use(express.static("build"));
 
 app.get("/api/persons", (request, response) => {
   Person.find({}).then((persons) => {
