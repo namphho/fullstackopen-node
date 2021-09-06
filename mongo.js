@@ -33,7 +33,7 @@ if (process.argv.length > 4) {
   });
 }
 
-if (process.argv.length == 3) {
+if (process.argv.length === 3) {
   Person.find({}).then((result) => {
     console.log("Phonebook:");
     result.forEach((person) => {
